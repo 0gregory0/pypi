@@ -1,2 +1,5 @@
-src/example_package_0gregory0.egg-info/
-dist/
+# Ignore dist folder in the root
+/dist/
+
+# Ignore example.egg-info folder inside src
+/src/example_package_0gregory0.egg-info/
