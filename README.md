@@ -161,6 +161,15 @@ python -m build
 
 You now have your distribution ready (e.g. a tar.gz file and a .whl file in the dist directory), which you can [upload to PyPI](https://twine.readthedocs.io/en/stable/index.html)!
 
+> Note: If you are tracking all this with git, you may also want to add a `.gitignore` file at this point to ignore the dist folder and the egg-info folder. Ensure the `.gitignore` file is in the root folder and add the following
+> ```.gitignore
+># Ignore dist folder in the root
+/dist/
+
+# Ignore example.egg-info folder inside src
+/src/example_package_0gregory0.egg-info/
+> ```
+
 ### 7. Upload to PyPI
 Finally, it’s time to upload your package to the Python Package Index! Once again, I assume that you've already created an account and enabled 2FA on [PyPI](pypi.org) and Test [PyPI](test.pypi.org). Ok, I know I said it's time to upload our package to PyPI but first...
 
