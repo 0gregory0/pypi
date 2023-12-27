@@ -73,8 +73,8 @@ A ```README.md``` file is a file where you document your package, so that other 
 ### 4. Create a LICENCE.txt file
 Also known as `LICENSE.txt`, this file is placed in the root folder(`packaging_tutorial`). The `LICENCE.txt` is a file that tells developers what they are and aren't allowed to do with your code. Remember that code is intellectual property and you can reserve your rights by including a licence. When you don't include a a licence, your code is automatically given the exclusive license that only gives you the right to copy and distribute your code and developers may not contribute to your project for fear of facing a copyright strike. ([Learn more about licenses](https://choosealicense.com/)). The most popular licence is the [MIT Licence](https://choosealicense.com/licenses/mit/) due to its concise nature. For this tutorial, I chose the [Apache Licence](https://choosealicense.com/licenses/apache-2.0/).
 
-### 5. Create a project.toml file
-We create the `project.toml` in the root folder(`packaging_tutorial`).
+### 5. Create a pyproject.toml file
+We create the `pyproject.toml` in the root folder(`packaging_tutorial`).
 
 This is what bing chat had to say about this file:
 
@@ -102,7 +102,7 @@ In summary, including the `pyproject.toml` file is **crucial** for proper packag
 
 From the first point, you can see that this file helps us build our backend. You can choose from a number of backends such as  [Setuptools](https://setuptools.pypa.io/en/latest/), [Flit](https://flit.pypa.io/en/latest/), [PDM](https://pdm-project.org/latest/) and [Hatchling](https://hatch.pypa.io/latest/). In this tutorial, we use Setuptools.
 
-Add this to the `project.toml` file to configgure `setuptools` as our backend.
+Add this to the `pyproject.toml` file to configgure `setuptools` as our backend.
 
 ```toml
 [build-system]
