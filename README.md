@@ -144,7 +144,7 @@ Issues = "https://github.com/pypa/sampleproject/issues"
 
 * `requires-python` gives the versions of Python supported by your project. An installer like pip will look back through older versions of packages until it finds one that has a matching Python version.
 
-* `classifiers` gives the index and pip some additional metadata about your package. In this case, the package is only compatible with Python 3, is licensed under the MIT license, and is OS-independent. You should always include at least which version(s) of Python your package works on, which license your package is available under, and which operating systems your package will work on. For a complete list of classifiers, see https://pypi.org/classifiers/.
+* `classifiers` gives the index and pip some additional metadata about your package. In this case, the package is only compatible with Python 3, is licensed under the MIT license, and is OS-independent (That is from the [online tutorial](https://packaging.python.org/en/latest/tutorials/packaging-projects/#packaging-python-projects). I chose the Apache License, but everything else remains the same). You should always include at least which version(s) of Python your package works on, which license your package is available under, and which operating systems your package will work on. For a complete list of classifiers, see https://pypi.org/classifiers/.
 
 * `urls` lets you list any number of extra links to show on PyPI. Generally this could be to the source, documentation, issue trackers, etc.
 
