@@ -163,11 +163,10 @@ You now have your distribution ready (e.g. a tar.gz file and a .whl file in the 
 
 > Note: If you are tracking all this with git, you may also want to add a `.gitignore` file at this point to ignore the dist folder and the egg-info folder. Ensure the `.gitignore` file is in the root folder and add the following
 > ```.gitignore
-># Ignore dist folder in the root
-/dist/
-
-# Ignore example.egg-info folder inside src
-/src/example_package_0gregory0.egg-info/
+> # Ignore dist folder in the root
+> /dist/
+> # Ignore example.egg-info folder inside src
+> /src/example_package_0gregory0.egg-info/
 > ```
 
 ### 7. Upload to PyPI
